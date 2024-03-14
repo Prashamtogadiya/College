@@ -92,6 +92,7 @@ public class ComplexNumber{
         c1.display();
         c2.display();
         c3=c1.addition(c2);  
-        c3.display();    
+        c3.display();
+            
     }
 }
