@@ -5,6 +5,7 @@ public class Average {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter size of an array : ");
         int size = sc.nextInt();
+        sc.close();
         int []a=new int[size];
         double avg=0;
         float sum=0f;

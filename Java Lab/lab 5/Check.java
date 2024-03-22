@@ -8,6 +8,7 @@ public class Check {
         while(b!= "quit"){
             System.out.print("Enter a new string : ");
             b = sc.nextLine();
+            sc.close();
             if(b.equals("quit")){
                 break;
             }

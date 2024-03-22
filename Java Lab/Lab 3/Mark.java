@@ -10,6 +10,7 @@ public class Mark {
         int m3 = sc.nextInt();
         int m4 = sc.nextInt();
         int m5 = sc.nextInt();
+        sc.close();
         double totalmarks;
         totalmarks = m1+m2+m3+m4+m5;
         double per = (totalmarks*100)/(outofmarks*5.0);

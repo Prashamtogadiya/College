@@ -5,6 +5,7 @@ public class vowelOrConsonant {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the string : ");
         String str = sc.nextLine();
+        sc.close();
         int vc = 0, cc = 0;
         for (int i = 0; i < str.length(); i++) {
             if (str.charAt(i) == 'a' || str.charAt(i) == 'e' || str.charAt(i) == 'i' || str.charAt(i) == 'o'

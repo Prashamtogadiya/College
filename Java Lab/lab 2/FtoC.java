@@ -9,6 +9,7 @@ public class FtoC {
         Scanner sc = new Scanner(System.in);
         double f,c;
         f = sc.nextDouble();
+        sc.close();
         c = (f-32)*5/9 ;
         System.out.println("Fahrenheit to Celsius : " + c);
         FtoC fc = new FtoC();

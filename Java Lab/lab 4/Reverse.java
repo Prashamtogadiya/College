@@ -5,6 +5,7 @@ public class Reverse {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter size of an Array : ");
         int size = sc.nextInt();
+        sc.close();
         int[] a = new int[size];
         for (int i = 0; i < a.length; i++) {
             System.out.print("Enter a[" + i + "] : ");

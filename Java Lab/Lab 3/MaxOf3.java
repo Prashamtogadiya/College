@@ -7,6 +7,7 @@ public class MaxOf3 {
         int num1 = sc.nextInt();
         int num2 = sc.nextInt();
         int num3 = sc.nextInt();
+        sc.close();
         if (num1 >= num2 && num1 >= num3) {
             System.out.println(num1 + " is the maximum number.");
         } else if (num2 >= num1 && num2 >= num3) {

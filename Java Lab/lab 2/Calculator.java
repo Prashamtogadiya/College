@@ -10,6 +10,7 @@ public class Calculator {
         b = sc.nextFloat();
         System.out.println("Enter Oprator : ");
         oprator =  sc.next().charAt(0);
+        sc.close();
         
         switch (oprator) {
             case '+':

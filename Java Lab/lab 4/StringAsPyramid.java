@@ -7,6 +7,7 @@ public class StringAsPyramid {
         String str;
         System.out.print("Enter your string : ");
         str = sc.nextLine();
+        sc.close();
         for (int i = 0; i < str.length(); i++) {
             for (int j = 0; j <= i; j++) {
                 ch = str.charAt(j);
